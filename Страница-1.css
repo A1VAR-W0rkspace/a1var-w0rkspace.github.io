@@ -1,31 +1,99 @@
  .u-section-1 {
-  background-image: url("images/2023-03-05101014.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/2023-03-05101014.png");
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 758px;
+  min-height: 769px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 125px auto 0;
+}
+
+.u-section-1 .u-custom-html-1 {
+  height: auto;
+  min-height: 57px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 388px;
+  width: 808px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 400;
+  margin: 12px auto 0;
+}
+
+.u-section-1 .u-custom-html-2 {
+  height: auto;
+  min-height: 57px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  margin: 0 -56px 60px 388px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 625px;
+    min-height: 634px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 668px;
+    margin-right: 16px;
+    margin-left: 456px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-left: 288px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 479px;
+    min-height: 486px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-left: 178px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 359px;
+    min-height: 365px;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 540px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 226px;
+    min-height: 230px;
   }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 340px;
+  }
+}@font-face {
+  font-family: 'Cheque-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Cheque-Regular.otf);
 }
