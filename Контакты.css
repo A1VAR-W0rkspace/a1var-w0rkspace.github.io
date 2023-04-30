@@ -370,4 +370,9 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/Cheque-Black.otf);
+}@font-face {
+  font-family: 'Cheque-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Cheque-Regular.otf);
 }

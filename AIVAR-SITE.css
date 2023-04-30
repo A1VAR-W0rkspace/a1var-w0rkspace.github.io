@@ -378,4 +378,9 @@
   .u-section-3 .u-form-1 {
     width: 340px;
   }
-} } 
+} } @font-face {
+  font-family: 'Cheque-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Cheque-Regular.otf);
+}

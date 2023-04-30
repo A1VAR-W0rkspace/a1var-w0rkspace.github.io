@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/2023-03-05101014.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/2023-03-05101014.png");
   background-position: 50% 50%;
 }
 
@@ -11,10 +11,10 @@
   height: 360px;
   width: 640px;
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   text-shadow: 0px 0px 0px rgba(0,0,0,0);
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  margin: 89px 230px 0 auto;
+  margin: 107px 230px 0 auto;
 }
 
 .u-section-1 .embed-responsive-1 {
@@ -26,24 +26,22 @@
 }
 
 .u-section-1 .u-text-1 {
-  text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  text-shadow: 0px 0px 19px rgba(0,0,0,1);
   transition-duration: 0.5s;
-  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   box-shadow: 0px 0px 0px rgba(0,0,0,0);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 56px 248px 0 auto;
+  font-family: Cheque-Black;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 38px 187px 0 auto;
 }
 
 .u-section-1 .u-text-2 {
   text-shadow: 0px 0px 17px rgba(0,0,0,0.95);
-  --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 38px 210px 60px 250px;
 }
@@ -55,10 +53,20 @@
 
   .u-section-1 .u-video-1 {
     animation-duration: 1000ms;
+    margin-top: 159px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 20px;
+    margin-right: 87px;
   }
 
   .u-section-1 .u-text-2 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
     margin-right: 110px;
+    margin-bottom: 0;
     margin-left: 150px;
   }
 }
@@ -69,11 +77,12 @@
   }
 
   .u-section-1 .u-video-1 {
+    margin-top: 107px;
     margin-right: 80px;
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 190px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-2 {
@@ -90,11 +99,8 @@
   .u-section-1 .u-video-1 {
     height: 304px;
     width: 540px;
+    margin-top: 163px;
     margin-right: 0;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-right: 143px;
   }
 
   .u-section-1 .u-text-2 {
@@ -110,10 +116,7 @@
   .u-section-1 .u-video-1 {
     height: 191px;
     width: 340px;
-  }
-
-  .u-section-1 .u-text-1 {
-    margin-right: 90px;
+    margin-top: 276px;
   }
 }
 
@@ -163,4 +166,14 @@
 
 .u-container-layout.hover .u-section-1 .u-text-1 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
+}@font-face {
+  font-family: 'Cheque-Black';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Cheque-Black.otf);
+}@font-face {
+  font-family: 'Cheque-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Cheque-Regular.otf);
 }
