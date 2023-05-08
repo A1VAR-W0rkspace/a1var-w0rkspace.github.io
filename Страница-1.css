@@ -89,11 +89,16 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 230px;
+    min-height: 367px;
   }
 
   .u-section-1 .u-custom-html-1 {
+    margin-right: -325px;
     width: 340px;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    margin-right: -325px;
   }
 }@font-face {
   font-family: 'Cheque-Regular';
